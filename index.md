@@ -81,6 +81,9 @@ displayed if the 'eventbrite' field in the header is not set.
 </iframe>
 {% endif %}
 
+<!-- Place the following link anywhere in your page. Make sure the id "s_lc_event_7166570" matches with the above code: jQuery("#s_lc_event_7166570")  //-->
+<a id="s_lc_event_7166570" href="https://okstate.libcal.com/calendar/events/dc_socsci">CLICK AND REGISTER</a>
+<!-- Below is optional element styling  //-->
 <style>
 #s_lc_event_7166570 {
   background: #FA620A;
@@ -95,6 +98,7 @@ displayed if the 'eventbrite' field in the header is not set.
   opacity: 0.9;
 }
 </style>
+
 <h2 id="general">General Information</h2>
 
 {% comment %}
