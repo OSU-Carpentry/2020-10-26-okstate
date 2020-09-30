@@ -21,20 +21,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 ---
 
 {% comment %} See instructions in the comments below for how to edit specific sections of this workshop template. {% endcomment %}
-<style>
-#s_lc_event_7166570 {
-  background: #FA620A;
-  border: 1px solid #FA620A;
-  border-radius: 4px;
-  color: #080808;
-  font: 14px Arial, Helvetica, Verdana;
-  padding: 8px 20px;
-  cursor: pointer;
-}
-#s_lc_event_7166570:hover {
-  opacity: 0.9;
-}
-</style>
+
 {% comment %}
 HEADER
 
@@ -94,7 +81,20 @@ displayed if the 'eventbrite' field in the header is not set.
 </iframe>
 {% endif %}
 
-
+<style>
+#s_lc_event_7166570 {
+  background: #FA620A;
+  border: 1px solid #FA620A;
+  border-radius: 4px;
+  color: #080808;
+  font: 14px Arial, Helvetica, Verdana;
+  padding: 8px 20px;
+  cursor: pointer;
+}
+#s_lc_event_7166570:hover {
+  opacity: 0.9;
+}
+</style>
 <h2 id="general">General Information</h2>
 
 {% comment %}
